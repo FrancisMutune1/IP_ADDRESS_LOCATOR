@@ -31,7 +31,7 @@ def locate():
                            city=city,
                            latitude=latitude,
                            longitude=longitude)
-    return f"Location information for IP address {ip_address}"
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
